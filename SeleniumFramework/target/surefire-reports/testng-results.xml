@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30697" started-at="2021-10-26T08:06:40Z" finished-at="2021-10-26T08:07:10Z">
+    <groups>
+    </groups>
+    <test name="T_TestSuite" duration-ms="30697" started-at="2021-10-26T08:06:40Z" finished-at="2021-10-26T08:07:10Z">
+      <class name="testscripts.TestLogic">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:testscripts.TestLogic@2c9f9fb0]" name="startUp" is-config="true" duration-ms="7751" started-at="2021-10-26T13:36:40Z" finished-at="2021-10-26T13:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="testSetupMethod()[pri:0, instance:testscripts.TestLogic@2c9f9fb0]" name="testSetupMethod" duration-ms="6892" started-at="2021-10-26T13:36:48Z" finished-at="2021-10-26T13:36:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetupMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testscripts.TestLogic@2c9f9fb0]" name="tearDown" is-config="true" duration-ms="222" started-at="2021-10-26T13:36:54Z" finished-at="2021-10-26T13:36:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testscripts.TestLogic -->
+      <class name="testscripts.TestLogic2">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:testscripts.TestLogic2@2096442d]" name="startUp" is-config="true" duration-ms="10768" started-at="2021-10-26T13:36:55Z" finished-at="2021-10-26T13:37:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="testSetupMethod()[pri:0, instance:testscripts.TestLogic2@2096442d]" name="testSetupMethod" duration-ms="4932" started-at="2021-10-26T13:37:05Z" finished-at="2021-10-26T13:37:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetupMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testscripts.TestLogic2@2096442d]" name="tearDown" is-config="true" duration-ms="108" started-at="2021-10-26T13:37:10Z" finished-at="2021-10-26T13:37:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testscripts.TestLogic2 -->
+    </test> <!-- T_TestSuite -->
+  </suite> <!-- Suite -->
+</testng-results>
