@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="52" started-at="2021-10-26T13:04:50 IST" finished-at="2021-10-26T13:04:50 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="52" started-at="2021-10-26T13:04:50 IST" finished-at="2021-10-26T13:04:50 IST">
+      <class name="testing.PropReading">
+        <test-method status="PASS" signature="testProp()[pri:0, instance:testing.PropReading@131276c2]" name="testProp" duration-ms="9" started-at="2021-10-26T13:04:50 IST" finished-at="2021-10-26T13:04:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProp -->
+      </class> <!-- testing.PropReading -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
