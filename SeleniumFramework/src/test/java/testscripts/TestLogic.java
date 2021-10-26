@@ -25,6 +25,7 @@ public class TestLogic extends SeleniumUtility{
 		//typeInput(username, "admin");
 		//typeInput(pwd, "Test@123");
 				//or
+		System.out.println("********************** USername: "+properties.getProperty("username"));
 		typeInput(username, properties.getProperty("username"));		
 		typeInput(pwd, properties.getProperty("password"));
 		clickOnElement(loginButton);

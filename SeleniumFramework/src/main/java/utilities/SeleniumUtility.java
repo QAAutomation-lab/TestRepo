@@ -35,6 +35,7 @@ public class SeleniumUtility {
 		properties = new Properties();
 		String filePath=System.getProperty("user.dir")+"\\src\\main\\resources\\teamconfig\\alfaconfig.properties";
 		try {
+			System.out.println("****************FilepPath: "+filePath);
 			fis = new FileInputStream(filePath);
 			properties.load(fis);
 		} catch (Exception e) {
