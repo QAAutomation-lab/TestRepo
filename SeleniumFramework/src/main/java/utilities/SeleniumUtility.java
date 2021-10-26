@@ -27,13 +27,14 @@ public class SeleniumUtility {
 	public static WebDriver driver;
 	protected Properties properties;
 	protected Actions action;
-	protected FileInputStream fis;	
+	protected FileInputStream fis;
+	protected static String filePath;
 	/**
 	 * using this method we can load our property and also open desired browser
 	 */
 	public void setUp(String browserName,String appUrl) {
+		filePath=System.getProperty("user.dir")+"\\src\\main\\resources\\teamconfig\\alfaconfig.properties";
 		properties = new Properties();
-		String filePath=System.getProperty("user.dir")+"\\src\\main\\resources\\teamconfig\\alfaconfig.properties";
 		try {
 			System.out.println("****************FilepPath: "+filePath);
 			fis = new FileInputStream(filePath);
