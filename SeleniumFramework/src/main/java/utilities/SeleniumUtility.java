@@ -33,7 +33,7 @@ public class SeleniumUtility {
 	 * using this method we can load our property and also open desired browser
 	 */
 	{
-		filePath=System.getProperty("user.dir")+"\\src\\main\\resources\\teamconfig\\alfaconfig.properties";
+		filePath=System.getProperty("user.dir")+"\\src\\main\\resources\\testData\\testAppData.properties";
 		System.out.println("*******************Filepath: "+filePath);
 	}
 	public void setUp(String browserName,String appUrl) {
